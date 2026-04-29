@@ -1,0 +1,59 @@
+# ==============================
+# Backend Framework
+# ==============================
+fastapi
+uvicorn
+python-multipart
+pydantic
+
+# ==============================
+# Static Code Analysis
+# ==============================
+radon
+pylint
+bandit
+astor
+javalang
+esprima
+
+# ==============================
+# Machine Learning
+# ==============================
+scikit-learn
+pandas
+numpy
+joblib
+shap
+
+# ==============================
+# Advanced ML Models
+# ==============================
+xgboost
+lightgbm
+
+# ==============================
+# Visualization
+# ==============================
+matplotlib
+plotly
+
+# ==============================
+# GitHub Integration
+# ==============================
+gitpython
+
+# ==============================
+# PDF Report Generation
+# ==============================
+reportlab
+
+# ==============================
+# CI/CD & Security
+# ==============================
+python-dotenv
+
+# ==============================
+# Utilities
+# ==============================
+tqdm
+requests
