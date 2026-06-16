@@ -4,7 +4,9 @@ import Plot from "react-plotly.js";
 import { Graphviz } from "graphviz-react";
 import { jsPDF } from "jspdf";
 
-const BACKEND_URL = "http://localhost:8000/api";
+
+const BACKEND_URL =
+  import.meta.env.VITE_API_URL || "http://localhost:8000/api";
 const PAGES = [
   "Overview",
   "Bug Prediction",
