@@ -1,8 +1,52 @@
-node_modules/
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environment
 venv/
-__pycache__/
+env/
+.venv/
+
+# Environment variables
 .env
-dist/
-build/
-__pycache__/
-*.pyc
+.env.local
+
+# Models
+*.pkl
+
+# Logs
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+
+# Next.js
+.next/
+out/
+
+# Vite
+vite.svg
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Coverage
+coverage/
+htmlcov/
+
+# Temporary files
+temp_*
