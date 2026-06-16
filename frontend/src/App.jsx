@@ -412,7 +412,8 @@ import Plot from "react-plotly.js";
 import { Graphviz } from "graphviz-react";
 import { jsPDF } from "jspdf";
 
-const BACKEND_URL = "http://localhost:8000/api";
+const BACKEND_URL =
+  import.meta.env.VITE_API_URL || "http://localhost:8000/api";
 const PAGES = ["Overview", "Code Metrics", "Security Analysis", "Trends", "Architecture", "Project Health", "Summary & Roadmap"];
 
 const getProjectScore = (a) => {
@@ -728,7 +729,8 @@ import axios from "axios";
 import Plot from "react-plotly.js";
 import { jsPDF } from "jspdf";
 
-const BACKEND_URL = "http://localhost:8000/api";
+const BACKEND_URL =
+  import.meta.env.VITE_API_URL || "http://localhost:8000/api";
 
 function App() {
   const [uploadingFile, setUploadingFile] = useState(null);
